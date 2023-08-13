@@ -1,7 +1,3 @@
-# Define your Celery task functions in this file.
-# define functions marked as Celery tasks using decorators like '@shared_task.'
-#from .views import background_task  # Import your existing 'background_task' function
-
 from __future__ import absolute_import, unicode_literals
 from .models import Parser
 import multiprocessing

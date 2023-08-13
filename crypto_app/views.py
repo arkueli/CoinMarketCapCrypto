@@ -19,7 +19,7 @@ from utils.scraping_utils import scrape_data
     
 class RunScraperView(APIView):
     def get(self, request):
-        async_background_task.delay()  # Use '.delay()' to enqueue the task asynchronously
+        async_background_task.delay()  
         return Response({'message': 'Scraping started'})
     
 
