@@ -7,7 +7,7 @@ from . import views
 router = routers.DefaultRouter()
 
 urlpatterns = [
-    path('crypto-app/', include(router.urls)),
+    path('crypto_app/', include(router.urls)),
 ]
 
 

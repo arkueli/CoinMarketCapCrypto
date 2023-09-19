@@ -27,8 +27,3 @@ class Parser(models.Model):
 
 
 
-# For testing scraping functionality, you'd likely create separate tests using tools like
-# 'unittest.mock' to simulate web requests and responses.
-
-# Data Saving
-# Field Validation
